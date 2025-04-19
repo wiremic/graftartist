@@ -1,0 +1,49 @@
+
+body {
+  margin: 0;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #121212;
+  color: #e0e0e0;
+  background-image: url('../assets/gritty-bg.png');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.logo {
+  display: block;
+  max-width: 400px;
+  margin: 40px auto 10px;
+}
+
+.tagline {
+  text-align: center;
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+  color: #ccc;
+}
+
+main {
+  padding: 20px;
+  max-width: 960px;
+  margin: auto;
+}
+
+section {
+  margin: 60px 0;
+  padding: 20px;
+  border-left: 4px solid #444;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  color: #99ccff;
+}
+
+footer {
+  text-align: center;
+  padding: 30px;
+  color: #777;
+  font-size: 0.9rem;
+}
